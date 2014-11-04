@@ -45,6 +45,7 @@
       <section>
         <h2>A look at Meteor</h2>
         <p>An awesome, extremely simple way to build apps</p>
+        <p class="fragment">Slides located at <a href="http://csulbsigweb.github.io/meteor_in_depth/">http://csulbsigweb.github.io/meteor_in_depth/</a></p>
       </section>
 
       <section>
@@ -91,6 +92,16 @@ if (Meteor.isClient) {
         <h2>Security and meteor</h2>
         <p>Meteor js has a small library that mimicks Mongodb on the front end! Without inputting proper security rules anyone could make arbitrary calls to your database!</p>
         <p class="fragment">This proves to be both very good and very bad.</p>
+        <pre class="fragment"><code data-trim contenteditable>
+Data.insert({ joke: "HAHAHA I HAX UR DATABASE LOLOLOL",
+              trollPic: "http://loltrollface.com/troll.png" });
+        </code></pre>
+      </section>
+
+      <section>
+        <h2>Before more... some resources</h2>
+        <p class="fragment"><a href="https://docs.meteor.com/#/basic/">Meteor Docs</a></p>
+        <p class="fragment"><a href="https://www.discovermeteor.com/">Discover Meteor book (first 8 chapters free until Nov 6th)</a></p>
       </section>
     </div>
 
